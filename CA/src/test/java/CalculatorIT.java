@@ -51,7 +51,7 @@ public class CalculatorIT {
         double a = 10.0;
         double b = 5.0;
         Calculator instance = new Calculator();
-        double expResult = 1.0;
+        double expResult = 5.0;
         double result = instance.subtract(a, b);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
@@ -67,7 +67,7 @@ public class CalculatorIT {
         double a = 2.0;
         double b = 2.0;
         Calculator instance = new Calculator();
-        double expResult = 4.0;
+        double expResult = 6.0;
         double result = instance.multiply(a, b);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
