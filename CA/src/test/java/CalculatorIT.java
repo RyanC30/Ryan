@@ -32,10 +32,10 @@ public class CalculatorIT {
     @org.junit.Test
     public void testAdd() {
         System.out.println("add");
-        double a = 0.0;
-        double b = 0.0;
+        double a = 1.0;
+        double b = 1.0;
         Calculator instance = new Calculator();
-        double expResult = 0.0;
+        double expResult = 2.0;
         double result = instance.add(a, b);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
@@ -67,7 +67,7 @@ public class CalculatorIT {
         double a = 2.0;
         double b = 2.0;
         Calculator instance = new Calculator();
-        double expResult = 6.0;
+        double expResult = 4.0;
         double result = instance.multiply(a, b);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
@@ -80,10 +80,10 @@ public class CalculatorIT {
     @org.junit.Test
     public void testDivide() {
         System.out.println("divide");
-        double a = 0.0;
-        double b = 0.0;
+        double a = 10.0;
+        double b = 5.0;
         Calculator instance = new Calculator();
-        double expResult = 0.0;
+        double expResult = 2.0;
         double result = instance.divide(a, b);
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
