@@ -30,7 +30,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Calculator</mainClass>
+                            <mainClass>Calculator.java</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
