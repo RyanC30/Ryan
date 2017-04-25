@@ -4,7 +4,7 @@
 public class Calculator {
 
     public static void main(String args[]) {
-        System.out.println("Welcome to my calculator");
+        System.out.println("Welcome to my calculator!");
     }
 
         public double add ( double a, double b){
