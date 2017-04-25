@@ -3,8 +3,9 @@
  */
 public class Calculator {
 
-    public static void main(String args[]) {
+    public static void main(String args[]) throws ClassNotFoundException {
         System.out.println("Welcome to my calculator!");
+
     }
 
         public double add ( double a, double b){
