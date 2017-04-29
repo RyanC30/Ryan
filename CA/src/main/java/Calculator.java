@@ -4,7 +4,7 @@
 public class Calculator {
 
     public static void main(String args[]) throws ClassNotFoundException {
-        System.out.println("Welcome to my calculator version 3!");
+        System.out.println("Welcome to my calculator version 1.1!");
 
     }
 
